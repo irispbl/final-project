@@ -1,3 +1,137 @@
+* {
+  font-family: ;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
 
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+  background-color: #ecf7ff;
+}
+.list {
+  display: none;
+}
 
-@media(min-width:900px){
+.button-menu {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration-color: #072acb;
+  border: none;
+}
+
+.button-menu span {
+  width: 37px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: all 0.2s linear;
+  background-color: #072acb;
+  border: none;
+}
+
+.button-menu.close span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+}
+.button-menu.close span:nth-child(2) {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+.button-menu.close span:nth-child(3) {
+  display: none;
+}
+#contact {
+  color: #ecf7ff;
+  background-color: #072acb;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: #6b708d;
+  background-color: #ecf7ff;
+  width: 100%;
+}
+.first-column h1 {
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.secondList {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#getintouch {
+  color: #ecf7ff;
+  background-color: #072acb;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+}
+.second-column{
+    width: 100%;
+    height: 110vh;
+    background-image: url(../images/project-assets/hero-section/hero-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ecf7ff;
+}
+
+.first-image {
+    display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+width: 300px;
+padding-left: 190px;
+margin-top: 0px;
+
+  
+  
+}
+.second-image{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+width: 300px;
+padding-left: 31rem;
+  
+}
+#partners{
+    background-color: #ecf7ff;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  justify-content: space-between;
+  filter: grayscale();
+  margin-block-start: 3em;
+}
+@media (min-width: 900px) {
+}
