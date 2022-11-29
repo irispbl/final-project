@@ -138,19 +138,18 @@ ul {
 }
 
 @media (min-width: 1024px) {
-nav{
+  nav {
     justify-content: space-between;
     height: 40px;
     margin: 0rem 5rem;
     font-size: 18px;
-}
+  }
   .list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-   
   }
   #desplegable {
     display: none;
@@ -174,9 +173,8 @@ nav{
     color: #6b708d;
   }
   #contact {
-  font-size: 18px;
+    font-size: 18px;
     padding: 20px 40px;
-   
   }
   #main {
     flex-direction: row;
@@ -196,7 +194,7 @@ nav{
     font-size: 60px;
     font-weight: bold;
   }
-  .first-column p{
+  .first-column p {
     font-size: 24px;
   }
 
@@ -206,9 +204,8 @@ nav{
     display: flex;
     justify-content: flex-start;
     margin-left: -40px;
-    
   }
-  #getintouch{
+  #getintouch {
     font-size: 18px;
   }
 
