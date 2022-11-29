@@ -371,11 +371,11 @@ justify-content: space-between;
 }
 .margin-project{
   width: 30%;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
 }
 #section4 {
-margin: 0 1rem;
-  height: 82vh;
+margin: 0 3rem;
+  height: 50vh;
 }
 h2 {
   font-size: 30px;
@@ -385,12 +385,14 @@ h2 {
   color: black;
   margin-top: 3px;
 }
-  #button-sec4 {
-    margin-left: 4px;
-    margin-top: 0px;
-    font-size: 16px;
+  #input-button-sec4 {
+    margin-left: 0px;
+    margin-top: 2px;
 }
 #mail-sec4 {
+  font-size: 16px;
+}
+#button-sec4{
   font-size: 16px;
 }
 .footer{
