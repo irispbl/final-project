@@ -1,0 +1,230 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+#section2{
+    
+    background-color:#292E47;
+    width: 100%;
+    background-image: url("../images/project-assets/testimonial-section/orbit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+}
+
+#container3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#profile-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#profile-text-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#h4-section2{
+    color: #f2f4fc;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 10px; 
+}
+
+.p-section2{
+    color: #ffc600;
+    font-size: 12px;
+    text-align: center;  
+}
+
+#we-really-enjoy{
+    margin: 0;
+}
+
+#profile-pic{
+  width: 25px;
+  height: 25px;
+  border-radius: 100px; 
+}
+
+#profile-name{
+   color: #a2d6f9;
+   font-size: 10px;
+   margin: 0;
+}
+
+#profile-info{
+    color: #f2f4fc;
+    font-size: 7px;
+    margin: 0;
+}
+
+.emojis{
+    width: 75px;
+}
+
+
+#section4{
+   display: flex;
+    background-color: #ffc600;
+    height: 30vh;  
+}
+#mail-sec4{
+    background-image: url("../images/project-assets/newsletter/icon/mail.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    background-size: 17px;
+    border: none;
+    padding: 12px 30px;
+    font-size: 10px;
+    margin-left: 20px;
+
+    
+}
+#container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#h2-sec4{
+    margin: 0;
+    margin-left: 50px;
+
+}
+#let-us-help-you{
+    color: rgba(0, 0, 0, 0.611);
+    margin: 10px;
+    margin-left: 40px;
+}
+
+#button-sec4{
+    background-color: #072ac8;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 10px
+}
+
+#input-button-sec4{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+/* DESKTOP VERSION*/
+
+@media (min-width: 1024px){
+
+    #section2{
+        background-size: contain;
+        background-position-y: 15px;
+    }
+    
+    #container1{
+        justify-content: space-evenly;
+        
+    }
+
+    #profile-div{
+       
+        margin-top: 25px;
+    }
+    
+ 
+    
+    #h4-section2{
+       color: #f2f4fc;
+     
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 35px;
+        margin-left: 10px; 
+    }
+    
+    .p-section2{
+        font-size: 20px;
+    }
+  
+    #profile-pic{
+      width: 40px;
+      height: 40px; 
+    }
+    
+    #profile-name{
+       font-size: 12px;
+       margin-top: 5px;
+       
+    }
+    
+    #profile-info{
+        font-size: 10px;
+    }
+    
+    .emojis{
+        width: 100px;
+    }
+    
+    
+
+    #mail-sec4{
+        background-position-x: 15px;
+        background-size: 20px;
+        padding: 20px 85px;
+        font-size: 10px;
+
+        
+    }
+    #container4{
+        margin-left: 27%;
+    }
+    
+    #h2-sec4{
+      font-size: 25px;
+      
+    
+    }
+    #let-us-help-you{
+        color: rgba(0, 0, 0, 0.611);
+        font-size: 20px;
+    }
+    
+    #button-sec4{
+        padding: 17px 50px;
+        font-size: 12px
+    }
+
+}
+
+
