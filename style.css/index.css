@@ -380,7 +380,10 @@ ul {
   margin-top: 40px;
 }
 
-/* DESKTOP VERSION*/
+/* DESKTOP VERSION
+parte azul de emoji y parte amarilla***
+********************
+*********************/
 
 @media (min-width: 1024px) {
   #section2 {
@@ -389,7 +392,8 @@ ul {
   }
 
   #container1 {
-    justify-content: space-evenly;
+    justify-content: space-between;
+   
   }
 
   #profile-div {
@@ -427,23 +431,32 @@ ul {
   .emojis {
     width: 100px;
   }
-
+#section4{
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
   #mail-sec4 {
     background-position-x: 15px;
     background-size: 20px;
-    padding: 20px 85px;
+    padding: 20px 85px 20px 50px;
     font-size: 10px;
+    margin-left: 0;
   }
-  #container4 {
+ /* #container4 {
     margin-left: 27%;
-  }
+  
+  }*/
 
   #h2-sec4 {
     font-size: 25px;
+    padding: 0px;
+    margin-left: 0;
   }
   #let-us-help-you {
     color: rgba(0, 0, 0, 0.611);
     font-size: 20px;
+    margin-left: 0;
   }
 
   #button-sec4 {
