@@ -215,6 +215,11 @@ margin-top: 40px;
     }
 
       } 
+
+
+/*******************/
+/*    Section 2   */
+/*******************/
 #section2{
     
     background-color:#292E47;
@@ -304,7 +309,9 @@ margin-top: 40px;
     width: 75px;
 }
 
-
+/*******************/
+/*    Section 4 "do you hace any question    */
+/*******************/
 #section4{
    display: flex;
     background-color: #ffc600;
