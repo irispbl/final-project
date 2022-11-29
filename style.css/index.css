@@ -140,13 +140,17 @@ ul {
 @media (min-width: 1024px) {
 nav{
     justify-content: space-between;
+    height: 40px;
     margin: 0rem 5rem;
+    font-size: 18px;
 }
   .list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
+   
   }
   #desplegable {
     display: none;
@@ -168,6 +172,11 @@ nav{
   a.services {
     text-decoration: none;
     color: #6b708d;
+  }
+  #contact {
+  font-size: 18px;
+    padding: 20px 40px;
+   
   }
   #main {
     flex-direction: row;
