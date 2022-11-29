@@ -1,14 +1,13 @@
 
 body{
     font-family: Roboto;
-    background-color: #E5E5E5;
-    margin: 2.5rem;
+    background-color: #f2f4fc;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f2f4fc;
+main{
+   margin: 0 100px;
 }
 /*******************/
 /*     NAAAAAAAAV    */
@@ -21,7 +20,7 @@ nav {
   align-items: center;
   width: 100%;
   height: 75px;
-  padding: 20px;
+  padding: 20px 0;
 }
 .list {
   display: none;
@@ -74,41 +73,58 @@ nav {
 /*******************/
 
 #simplify-sec{
-    display: flex;
+    width: 100%;
 }
 
 #simplify-title{
-    font-size: 70px;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
 }
 
 #titulos{
     display: flex;
+    font-size: 20px;
+    width: 100%;
+    flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#image-simp{
+    width: 100%;
+   
+}
+
+#texto-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+
+}
+.header{
+    text-align: justify;
 }
 
 
 /*******************/
 /* OTHER PROJECTS     */
 /*******************/
-.project-img{
-    width: 20rem;
-    height: 235px;
-    margin: auto;
-}
+
 
 .section1-img{
-    display: flex;
-    width: 20rem;
+    
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .projects{
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-    margin: auto;
+	flex-direction: column;
+	align-items: center;
+    
 }
 
 .project-container{
@@ -122,6 +138,7 @@ nav {
 
 .margin-project{
     margin-bottom: 35px;
+    width: 75%;
 }
 
 .project-container > h3{
@@ -157,7 +174,11 @@ nav {
 #section4{
     display: flex;
      background-color: #ffc600;
-     height: 30vh;  
+     height: 20vh; 
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
  }
  #mail-sec4{
      background-image: url("../images/project-assets/newsletter/icon/mail.svg");
@@ -166,35 +187,29 @@ nav {
      background-position-x: 10px;
      background-size: 17px;
      border: none;
-     padding: 12px 30px;
+     padding: 20px 85px 20px 40px;
      font-size: 10px;
      margin-left: 20px;
  
      
  }
  #container4{
-     display: flex;
+    display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
  }
  
- #h2-sec4{
-     margin: 0;
-     margin-left: 50px;
- 
- }
+
  #let-us-help-you{
      color: rgba(0, 0, 0, 0.611);
-     margin: 10px;
-     margin-left: 40px;
  }
  
  #button-sec4{
      background-color: #072ac8;
      color: white;
      border: none;
-     padding: 12px 40px;
+     padding: 20px 85px 20px 40px;
      font-size: 10px
  }
  
