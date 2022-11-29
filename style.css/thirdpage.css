@@ -1,0 +1,233 @@
+body{
+    font-family: Roboto;
+    background-color: #E5E5E5;
+}
+
+/*******************/
+/*     HEADER      */
+/*******************/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    padding: 20px;
+  }
+  .list {
+    display: none;
+  }
+  
+  .button-menu {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration-color: #072acb;
+    border: none;
+  }
+  
+  .button-menu span {
+    width: 37px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: all 0.2s linear;
+    background-color: #072acb;
+    border: none;
+  }
+  
+  .button-menu.close span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+  .button-menu.close span:nth-child(2) {
+    transform: rotate(-45deg) translate(-8px, 5px);
+  }
+  .button-menu.close span:nth-child(3) {
+    display: none;
+  }
+
+/********************/
+/*    FORMULARIO   */
+/*******************/
+
+main{
+  margin: 2rem;
+}
+
+#form input{
+    border: 0;
+    background: rgba(107, 112, 141, 0.1);
+    height: 35px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#form textarea{
+  border: 0;
+  background: rgba(107, 112, 141, 0.1);
+  height: 35px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+ #form label{
+    color: #6B708D;
+    margin-bottom: 0.4rem;
+ }
+
+ .name{
+  display: flex;
+	flex-direction: column;
+ }
+
+ .email{
+  display: flex;
+	flex-direction: column;
+ }
+
+ .phone{
+  display: flex;
+	flex-direction: column;
+ }
+
+ .message{
+  display: flex;
+	flex-direction: column;
+ }
+
+ button{
+  width: 100%;
+  height: 6vh;
+  border: 0;
+  background-color: #072acb;
+  color: white;
+  margin-bottom: 2rem;
+ }
+
+
+/*******************/
+/*     Footer      */
+/*******************/
+
+.footer-info{
+  display: flex;
+flex-direction: column;
+align-items: center;
+  text-align: center;
+}
+
+.footer-info > address{
+  width: 240px;
+  line-height: 150%;
+  color: #6B708D;
+  margin-bottom: 25px;
+  display: block;
+  font-style: italic;
+}
+
+.footer-info > img{
+  width: 70px;
+  margin-bottom: 25px;
+  margin-left: 0;
+}
+
+.footer-links{
+  display: flex;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  text-align: center;
+  flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: stretch;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: #6B708D;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.links1{
+  display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: baseline;
+align-content: stretch; 
+  margin-right: 1rem;
+}
+
+.links2{
+  display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: baseline;
+align-content: stretch; 
+}
+
+
+
+@media screen and (min-width: 768px){
+  
+
+  .footer-info {
+      text-align: left;
+      margin-bottom: 5rem;
+  }
+
+  footer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      align-content: stretch;
+      margin-top: 170px;
+      margin-bottom: 90px;
+      
+  }
+
+  .footer-links{
+      align-items: flex-end;
+  }
+
+  .links1{
+      margin-bottom: 3rem;
+  } 
+
+  .circle{
+      margin-right: 8.5rem;
+  }
+
+  .email-phone{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+  }
+  .email{
+    width: 48%;
+  }
+
+  .phone{
+    width: 48%;
+  }
+}
