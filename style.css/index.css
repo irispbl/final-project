@@ -588,6 +588,7 @@ ul {
   }
   #getintouch {
     font-size: 18px;
+    cursor: pointer;
   }
 
   #seeOurWork {
@@ -606,7 +607,7 @@ ul {
   .first-image {
     width: 270px;
     margin-left: -40px;
-    margin-top: 56px;
+    margin-top: 96px;
    
   }
  
