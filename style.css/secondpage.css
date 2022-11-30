@@ -363,6 +363,12 @@ any question   */
   font-size: 18px;
 
 }*/
+
+.section1-img{
+    
+  height: 350px;
+
+}
 .projects{
 display: flex;
 flex-direction: row;
@@ -389,6 +395,7 @@ justify-content: space-between;
 h2 {
   font-size: 30px;
 }
+
 #let-us-help-you{
   color: rgba(0, 0, 0, 0.611);
   font-size: 18px;
