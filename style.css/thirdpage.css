@@ -242,7 +242,10 @@ align-content: stretch;
     padding: 20px 40px;
   }
 
-  
+  #form input{
+    height: 45px;
+    margin-bottom: 30px;
+  }
   /*
   #form input{
     border: 0;
