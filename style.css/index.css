@@ -255,6 +255,7 @@ ul {
   background-position: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
 }
 
 #container1 {
@@ -338,6 +339,7 @@ ul {
   display: flex;
   background-color: #ffc600;
   height: 30vh;
+  margin-bottom: 5rem;
 }
 #mail-sec4 {
   background-image: url("../images/project-assets/newsletter/icon/mail.svg");
@@ -434,7 +436,7 @@ parte azul de emoji y parte amarilla***
 #section4{
   display: flex;
   justify-content: center;
-  height: 50vh;
+  height: 60vh;
 }
   #mail-sec4 {
     background-position-x: 15px;
@@ -486,7 +488,6 @@ parte azul de emoji y parte amarilla***
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: auto;
 }
 
@@ -501,6 +502,7 @@ parte azul de emoji y parte amarilla***
 
 .margin-project {
   margin-bottom: 35px;
+  margin-right: 2.5rem;
 }
 
 .project-container > h3 {
@@ -528,6 +530,13 @@ parte azul de emoji y parte amarilla***
   font-size: 2rem;
 }
 
+#first-section{
+  margin-left: 1.3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
 /*******************/
 /*    Section 3    */
 /*******************/
@@ -537,6 +546,7 @@ parte azul de emoji y parte amarilla***
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .service-img1 {
@@ -604,13 +614,17 @@ parte azul de emoji y parte amarilla***
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-between;
   align-items: center;
   align-content: space-between;
 }
 
 #third-section h2 {
   font-size: 2rem;
+}
+
+#third-section{
+  margin-bottom: 5rem;
+  margin-left: 2.5rem;
 }
 
 /*******************/
@@ -719,4 +733,26 @@ parte azul de emoji y parte amarilla***
   .circle {
     margin-right: 8.5rem;
   }
+
+  #third-section{
+    margin-left: 5rem;
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
+
+  #first-section{
+    margin-left: 5rem;
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
+
+  #first-section h2{
+    margin-bottom: 4rem;
+  }
+
+  #third-section h2{
+    margin-bottom: 4rem;
+  }
+
+
 }
