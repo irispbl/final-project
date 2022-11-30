@@ -111,7 +111,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 12px;
+    /*font-size: 12px;*/
     color:#6B708D;
     text-align:left;
     line-height: 25px;
@@ -150,7 +150,7 @@ ul {
 
 .margin-project{
     margin-bottom: 35px;
-    width: 75%;
+    /*width: 75%;*/
 }
 
 .project-container > h3{
@@ -251,7 +251,7 @@ any question   */
     color: #6B708D;
     margin-bottom: 25px;
     display: block;
-    font-style: italic;
+    font-style: normal;   
 }
 
 .footer-info > img{
@@ -359,10 +359,10 @@ any question   */
  #image-simp{
      width: 100%;
  }
- #texto-img{
+ /*#texto-img{
   font-size: 18px;
 
-}
+}*/
 .projects{
 display: flex;
 flex-direction: row;
@@ -375,16 +375,23 @@ justify-content: space-between;
   width: 30%;
     margin-bottom: 80px;
 }
+/*
+.primeraImagen img{
+  height:255px;
+  
+}
+*/
 #section4 {
-margin: 0 3rem;
-  height: 50vh;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
 }
 h2 {
   font-size: 30px;
 }
 #let-us-help-you{
+  color: rgba(0, 0, 0, 0.611);
   font-size: 18px;
-  color: black;
   margin-top: 3px;
 }
   #input-button-sec4 {
@@ -415,7 +422,8 @@ address {
   color: #6b708d;
   margin-bottom: 25px;
   display: block;
-  font-style: italic;
+  font-style: normal;   
+  
 }
 
 footer {
@@ -439,6 +447,8 @@ footer {
 
 .circle {
   margin-right: 8.5rem;
+  margin-bottom: 20px;
   width:100px;
 }
+
 }
