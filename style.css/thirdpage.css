@@ -1,6 +1,6 @@
 body{
     font-family: Roboto;
-    background-color: #E5E5E5;
+    background-color:#f2f4fc;
 }
 
 /*******************/
@@ -9,15 +9,25 @@ body{
 
 nav {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   height: 75px;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding: 20px 0;
 }
 
 .list {
   display: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+ul{
+  list-style: none;
 }
 
 .button-menu {
@@ -54,6 +64,13 @@ nav {
 }
 .button-menu.close span:nth-child(3) {
   display: none;
+}
+#contact {
+  color: #ecf7ff;
+  background-color: #072acb;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
 }
 
 /********************/
@@ -182,8 +199,93 @@ align-content: stretch;
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 900px){
+
+  nav {
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #desplegable {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  a.home {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: #6b708d;
+  }
+  a.projects {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: #6b708d;
+  }
+  a.services {
+    text-decoration: none;
+    color: #6b708d;
+  }
+  #contact {
+    font-size: 18px;
+    padding: 20px 40px;
+  }
+
   
+  /*
+  #form input{
+    border: 0;
+    background: rgba(107, 112, 141, 0.1);
+    height: 35px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#form textarea{
+  border: 0;
+  background: rgba(107, 112, 141, 0.1);
+  height: 35px;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+ #form label{
+    color: #6B708D;
+    margin-bottom: 0.4rem;
+ }
+
+ .name{
+  display: flex;
+	flex-direction: column;
+ }
+
+ .email{
+  display: flex;
+	flex-direction: column;
+ }
+
+ .phone{
+  display: flex;
+	flex-direction: column;
+ }
+
+ .message{
+  display: flex;
+	flex-direction: column;
+ }
+ */
 
   .footer-info {
       text-align: left;
@@ -223,17 +325,10 @@ align-content: stretch;
 	align-items: stretch;
 	align-content: stretch;
   }
-  .email{
-    width: 48%;
-  }
 
-  .phone{
-    width: 48%;
-  }
-
-  address{
-    margin-left: 2rem;
-  }
-
+.submit{
+  font-size: 16px;
+  font-weight: bold;
+}
 
 }
