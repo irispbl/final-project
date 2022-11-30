@@ -22,8 +22,27 @@ nav {
 .list {
   display: none;
 }
+
 ul{
   list-style: none;
+}
+
+
+
+a:hover{
+  color: #072ac84a;
+}
+
+.home{
+  color: #6b708d;
+}
+
+.projects{
+  color: #6b708d;
+}
+
+.services{
+  color: #6b708d;
 }
 
 .button-menu {
@@ -121,13 +140,15 @@ main{
 
  .submit{
   width: 100%;
-  height: 6vh;
   border: 0;
   color: white;
   background-color: #072acb;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
  }
 
+ ::placeholder{
+  padding: 1rem; 
+  }
 
 /*******************/
 /*     Footer      */
@@ -228,16 +249,13 @@ align-content: stretch;
   a.home {
     text-decoration: none;
     margin-right: 3rem;
-    color: #6b708d;
   }
   a.projects {
     text-decoration: none;
     margin-right: 3rem;
-    color: #6b708d;
   }
   a.services {
     text-decoration: none;
-    color: #6b708d;
   }
   #contact {
     font-size: 18px;
@@ -262,13 +280,14 @@ h1{
   flex-direction: row;
   justify-content: space-between;
  }
+
 .phone{
-  width: 50%;
+  width: 49%;
   margin-bottom: 10px;
 
 }
 .email{
-  width: 46%;
+  width: 49%;
 }
 
 #form textarea{
@@ -302,7 +321,7 @@ footer {
 }
 
 .links1 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .circle {
