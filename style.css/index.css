@@ -350,7 +350,6 @@ ul {
   border: none;
   padding: 12px 30px;
   font-size: 10px;
-  margin-left: 20px;
 }
 #container4 {
   display: flex;
@@ -361,7 +360,7 @@ ul {
 
 #h2-sec4 {
   margin: 0;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 #let-us-help-you {
   color: rgba(0, 0, 0, 0.611);
@@ -378,7 +377,7 @@ ul {
 }
 
 #input-button-sec4 {
-  margin-left: 40px;
+  margin-left: 35px;
   margin-top: 40px;
 }
 
