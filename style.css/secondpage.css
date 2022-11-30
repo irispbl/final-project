@@ -3,10 +3,11 @@ body{
     font-family: Roboto;
     background-color: #f2f4fc;
     padding: 0;
+    margin: 0 1rem;
 }
 
 main{
-   margin: 0 100px;
+   margin: 0 1rem;
 }
 /*******************/
 /*     NAAAAAAAAV    */
@@ -16,11 +17,8 @@ nav {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
   height: 75px;
-  padding: 20px 0;
-  margin-top: 2rem;
+  padding-top: 20px;
 }
 .list {
   display: none;
@@ -324,12 +322,13 @@ any question   */
 
 @media (min-width: 1024px) {
   body{
-    margin: 0;
+    margin: 5rem;
     padding: 0;
   }
     nav {
       height: 40px;
       font-size: 18px;
+      margin-bottom: 5rem;
       width: 100%;
     }
 
