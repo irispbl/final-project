@@ -597,25 +597,23 @@ ul {
   }
 
   .second-column {
-    width: 700px;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+    width: 26rem;
+    height: 26rem;    
   }
  
   .first-image {
-    width: 270px;
-    margin-left: -40px;
-    margin-top: 96px;
+    width: 15rem;
+    margin-left: -60px;
+    margin-top: 5px;
    
   }
  
   .second-image {
-    width: 270px;
-    margin-right: -60px;
-  margin-top: 60px;
+    width: 15rem;
+    margin-right: -70px;
+    margin-top: 5px;
   }
+  
   .logos {
     margin-block-start: 3em;
     margin-left: 5rem;
