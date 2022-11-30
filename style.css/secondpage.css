@@ -380,34 +380,23 @@ any question   */
  #image-simp{
      width: 100%;
  }
- /*#texto-img{
-  font-size: 18px;
 
-}*/
-
-.section1-img{
-    
-  height: 350px;
-
-}
 .projects{
 display: flex;
 flex-direction: row;
-align-items: center;
-justify-content: space-between;
-
-
+justify-content: center;
 }
+
 .margin-project{
-  width: 30%;
-    margin-bottom: 80px;
+  width: 20rem;
+    margin-bottom: 0px;
+    margin-right: 30px;
 }
-/*
-.primeraImagen img{
-  height:255px;
-  
+
+.section1-img {
+  object-fit:scale-down;
 }
-*/
+
 #section4 {
   display: flex;
   justify-content: center;
