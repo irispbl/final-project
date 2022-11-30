@@ -10,6 +10,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 75px;
+  padding-top: 20px;
 }
 .list {
   display: none;
@@ -72,11 +73,13 @@ a:hover{
   flex-direction: column;
   text-align: center;
   color: #6b708d;
+  margin: 2rem;
 }
 .first-column h1 {
   color: black;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
+  margin: 0px;
 }
 ul {
   list-style: none;
@@ -106,22 +109,26 @@ ul {
   display: flex;
   flex-direction: column;
 }
-
-.first-image {
+.firstItem{
+  width: 100%;
   display: flex;
+  justify-content: flex-start;
+}
+.first-image {
   width: 170px;
-  padding-left: 5px;
-  margin-top: 0px;
+  margin-left: -25px;
+  margin-top: 10px;
 }
 .secondItem {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  width: 100%;
 }
 .second-image {
   width: 170px;
-  margin-right: 3px;
-  margin-top: 40px;
+  margin-right: -30px;
+  margin-top: 26px;
 }
 #partners {
   background-color: #f2f4fc;
@@ -144,122 +151,71 @@ ul {
   width: 40px;
 }
 
-@media (min-width: 1024px) {
-  nav {
-    justify-content: space-between;
-    height: 40px;
-    margin: 0rem 5rem;
-    font-size: 18px;
-  }
-  .list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: bold;
-  }
-  #desplegable {
-    display: none;
-  }
-  #menu {
-    display: flex;
-    justify-content: space-between;
-  }
-  a.home {
-    text-decoration: none;
-    margin-right: 3rem;
-  }
-  
-  a.projects {
-    text-decoration: none;
-    margin-right: 3rem;
-    color: #6b708d;
-  }
-  a.services {
-    text-decoration: none;
-    color: #6b708d;
-  }
-  #contact {
-    font-size: 18px;
-    padding: 20px 40px;
-  }
-  #main {
-    flex-direction: row;
-    justify-content: center;
-    text-align: start;
-    align-items: center;
-    margin: 0rem 1rem;
-  }
-  .first-column {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: flex-end;
-  }
-  .first-column h1 {
-    font-size: 60px;
-    font-weight: bold;
-  }
-  .first-column p {
-    font-size: 24px;
-  }
-
-  .secondList {
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: -40px;
-  }
-  #getintouch {
-    font-size: 18px;
-  }
-
-  #seeOurWork {
-    margin-left: 2rem;
-    font-size: 18px;
-  }
-
 
 /*******************/
-/*    Section 2   */
+/*    Section 1    */
 /*******************/
-
-  .second-column {
-    width: 50%;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    justify-content: space-between;
-  }
-  .firstItem {
-    width: 100%;
-    height: 40vh;
-  }
-  .first-image {
-    width: 400px;
-   
-  }
-  .secondItem {
-    width: 100%;
-    height: 40vh;
-    
-  }
-  .second-image {
-    width: 400px;
-    display: flex;
-    
-  }
-  .logos {
-    margin-block-start: 3em;
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-  .logos img {
-    width: 120px;
-  }
+.project-img {
+  width: 100%;
+  height: 235px;
+  margin: auto;
 }
+
+.section1-img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-container {
+  background: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.margin-project {
+  margin-bottom: 35px;
+  margin-right: 2.5rem;
+}
+
+.project-container > h3 {
+  margin: 30px 30px 20px;
+  color: #292e47;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.project-container > p {
+  margin: 0px 30px 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.project-container > a {
+  text-decoration: none;
+  color: #072ac8;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 30px;
+}
+
+#first-section h2 {
+  font-size: 2rem;
+}
+
+#first-section{
+  margin-left: 1.3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  
+}
+
+
+/*SECTIOOOON 2*/
+
 #section2 {
   background-color: #292e47;
   width: 100%;
@@ -394,171 +350,6 @@ ul {
   margin-left: 35px;
   margin-top: 40px;
 }
-
-/* DESKTOP VERSION
-parte azul de emoji y parte amarilla***
-********************
-*********************/
-
-@media (min-width: 1024px) {
-  #section2 {
-    background-size: contain;
-    background-position-y: 15px;
-  }
-
-  #container1 {
-    justify-content: space-between;
-   
-  }
-
-  #profile-div {
-    margin-top: 25px;
-  }
-
-  #h4-section2 {
-    color: #f2f4fc;
-
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 35px;
-    margin-left: 10px;
-  }
-
-  .p-section2 {
-    font-size: 20px;
-  }
-
-  #profile-pic {
-    width: 40px;
-    height: 40px;
-  }
-
-  #profile-name {
-    font-size: 12px;
-    margin-top: 5px;
-  }
-
-  #profile-info {
-    font-size: 10px;
-  }
-
-  .emojis {
-    width: 100px;
-  }
-#section4{
-  display: flex;
-  justify-content: center;
-  height: 60vh;
-}
-  #mail-sec4 {
-    background-position-x: 15px;
-    background-size: 20px;
-    padding: 20px 85px 20px 50px;
-    font-size: 10px;
-    margin-left: 0;
-  }
- /* #container4 {
-    margin-left: 27%;
-  
-  }*/
-
-  #h2-sec4 {
-    font-size: 40px;
-    padding: 0px;
-    margin-left: 0;
-  }
-  #let-us-help-you {
-    color: rgba(0, 0, 0, 0.611);
-    font-size: 30px;
-    margin-top: 20px;
-  }
-
-  #button-sec4 {
-    padding: 17px 50px;
-    font-size: 12px;
-    width: 200px;
-    height: 65px;
-    margin-left: 1rem;
-  }
-
-  #mail-sec4{
-    width: 200px;
-    height: 25px;
-  }
-}
-
-/*******************/
-/*    Section 1    */
-/*******************/
-
-.project-img {
-  width: 20rem;
-  height: 235px;
-  margin: auto;
-}
-
-.section1-img {
-  display: flex;
-  width: 20rem;
-  height: 100%;
-  object-fit: cover;
-}
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.project-container {
-  background: white;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.margin-project {
-  margin-bottom: 35px;
-  margin-right: 2.5rem;
-}
-
-.project-container > h3 {
-  margin: 30px 30px 20px;
-  color: #292e47;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.project-container > p {
-  margin: 0px 30px 10px;
-  font-size: 17px;
-  font-weight: 400;
-}
-
-.project-container > a {
-  text-decoration: none;
-  color: #072ac8;
-  font-size: 17px;
-  font-weight: 500;
-  margin: 30px;
-}
-
-#first-section h2 {
-  font-size: 2rem;
-}
-
-#first-section{
-  margin-left: 1.3rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  
-}
-
 /*******************/
 /*    Section 3    */
 /*******************/
@@ -649,7 +440,6 @@ parte azul de emoji y parte amarilla***
   margin-bottom: 5rem;
   margin-left: 2.5rem;
 }
-
 /*******************/
 /*     Footer      */
 /*******************/
@@ -667,7 +457,7 @@ parte azul de emoji y parte amarilla***
   color: #6b708d;
   margin-bottom: 25px;
   display: block;
-  font-style: italic;
+  font-style: normal;
 }
 
 .footer-info > img {
@@ -714,32 +504,270 @@ parte azul de emoji y parte amarilla***
   align-content: stretch;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 1024px) {
   body {
     margin: 4rem;
   }
+  nav {
+    justify-content: space-between;
+    height: 40px;
+    margin: 0rem 5rem;
+    font-size: 18px;
+    margin-bottom: 5rem;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  #desplegable {
+    display: none;
+  }
+  #menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  a.home {
+    text-decoration: none;
+    margin-right: 3rem;
+  }
+  
+  a.projects {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: #6b708d;
+  }
+  a.services {
+    text-decoration: none;
+    color: #6b708d;
+  }
+  #contact {
+    font-size: 18px;
+    padding: 20px 40px;
+  }
+  #main {
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    margin: 0rem 1rem;
+  }
+  .first-column {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center
+  }
+  .first-column h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .first-column p {
+    font-size: 24px;
+  }
+
+  .secondList {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -40px;
+  }
+  #getintouch {
+    font-size: 18px;
+  }
+
+  #seeOurWork {
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+
+  .second-column {
+    width: 700px;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+ 
+  .first-image {
+    width: 270px;
+    margin-left: -40px;
+    margin-top: 56px;
+   
+  }
+ 
+  .second-image {
+    width: 270px;
+    margin-right: -60px;
+  margin-top: 60px;
+  }
+  .logos {
+    margin-block-start: 3em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .logos img {
+    width: 120px;
+  }
+
+  /*SECTIOOOOOOOOOON 1*/
+  .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-img {
+    width: 100%;
+    height: 235px;
+    margin: auto;
+  }
+  
+  .section1-img {
+    display: flex;
+    width: 20rem;
+    height: 100%;
+    object-fit: cover;
+  }
+  #first-section{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
+  .margin-project {
+    margin-bottom: 35px;
+    margin-right: 0rem;
+  }
+.project-container{
+  width: 100%;
+}
+
+  /* SECTIOOON 2 ***
+********************
+*********************/
+
+  #section2 {
+    background-size: contain;
+    background-position-y: 15px;
+  }
+
+  #container1 {
+    justify-content: space-between;
+   
+  }
+
+  #profile-div {
+    margin-top: 25px;
+  }
+
+  #h4-section2 {
+    color: #f2f4fc;
+
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
+
+  .p-section2 {
+    font-size: 20px;
+  }
+
+  #profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  #profile-name {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  #profile-info {
+    font-size: 10px;
+  }
+
+  .emojis {
+    width: 100px;
+  }
+  /*SECTIOOOOOOOOOOOOOOOOOON 3*/
 
   .services {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
   }
 
   .margin-service {
-    width: 21rem;
-    height: 30vh;
+    width: 50%;
+    height: 40vh;
+    
+  }
+  .service-container > h3 {
+    font-size: 1,1rem;
+    font-weight: 500;
+    padding-top: 0rem;
   }
 
   .service-container a{
-    margin-top: 4rem;
+    margin-top: 60px;
   }
 
   .service-container p{
     letter-spacing: 1px;
   }
 
+  /*SECTIOOOOOON 4*/
+#section4{
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+  #mail-sec4 {
+    background-position-x: 15px;
+    background-size: 20px;
+    padding: 20px 85px 20px 50px;
+    font-size: 17px;
+    margin-left: 0;
+      width: 200px;
+      height: 25px;
+    }
+ 
+
+  #h2-sec4 {
+    font-size: 40px;
+    padding: 0px;
+    margin-left: 0;
+  }
+  #let-us-help-you {
+    color: rgba(0, 0, 0, 0.611);
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  #button-sec4 {
+    padding: 17px 50px;
+    font-size: 17px;
+    width: 200px;
+    height: 65px;
+    margin-left: 1rem;
+  }
+
+ 
+/*FOOOOOOOTER*/
+  
   .footer-info {
     text-align: left;
     margin-bottom: 5rem;
+    
   }
 
   footer {
@@ -752,6 +780,7 @@ parte azul de emoji y parte amarilla***
     margin-top: 170px;
     margin-bottom: 90px;
   }
+  
 
   .footer-links {
     align-items: flex-end;
@@ -766,18 +795,11 @@ parte azul de emoji y parte amarilla***
   }
 
   #third-section{
-    margin-left: 10rem;
-    margin-right: 6rem;
     margin-top: 12rem;
     margin-bottom: 8rem;
   }
 
-  #first-section{
-    margin-left: 10rem;
-    margin-right: 6rem;
-    margin-top: 12rem;
-    margin-bottom: 8rem;
-  }
+
 
   #first-section h2{
     margin-bottom: 3rem;
@@ -788,5 +810,4 @@ parte azul de emoji y parte amarilla***
     margin-bottom: 3rem;
     font-size: 2.2rem;
     }
-
-}
+  }

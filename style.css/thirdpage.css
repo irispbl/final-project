@@ -217,7 +217,7 @@ align-content: stretch;
 
 
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1024px){
   body{
     margin: 0 5rem;
   }
