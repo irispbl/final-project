@@ -20,12 +20,29 @@ nav {
   width: 100%;
   height: 75px;
   padding: 20px 0;
+  margin-top: 2rem;
 }
 .list {
   display: none;
 }
 ul {
     list-style: none;
+  }
+
+  a:hover{
+    color: #072ac84a;
+  }
+  
+  .home{
+    color: #6b708d;
+  }
+  
+  .projects{
+    color: #6b708d;
+  }
+  
+  .services{
+    color: #6b708d;
   }
 
 .button-menu {
@@ -329,16 +346,13 @@ any question   */
     a.home {
       text-decoration: none;
       margin-right: 3rem;
-      color: #6b708d;
     }
     a.projects {
       text-decoration: none;
       margin-right: 3rem;
-      color: #6b708d;
     }
     a.services {
       text-decoration: none;
-      color: #6b708d;
     }
     #contact {
       font-size: 18px;
