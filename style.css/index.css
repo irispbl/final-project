@@ -15,6 +15,16 @@ nav {
   display: none;
 }
 
+.home{
+  color: #072ac8;
+}
+
+a:hover{
+  color: #072ac84a;
+}
+
+
+
 .button-menu {
   width: 50px;
   height: 50px;
@@ -127,6 +137,8 @@ ul {
   justify-content: space-between;
   margin-block-end: 0em;
   padding-inline-start: 0px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .logos img {
   width: 40px;
@@ -156,8 +168,8 @@ ul {
   a.home {
     text-decoration: none;
     margin-right: 3rem;
-    color: #6b708d;
   }
+  
   a.projects {
     text-decoration: none;
     margin-right: 3rem;
@@ -241,6 +253,8 @@ ul {
   }
   .logos {
     margin-block-start: 3em;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
   .logos img {
     width: 120px;
@@ -450,19 +464,27 @@ parte azul de emoji y parte amarilla***
   }*/
 
   #h2-sec4 {
-    font-size: 25px;
+    font-size: 40px;
     padding: 0px;
     margin-left: 0;
   }
   #let-us-help-you {
     color: rgba(0, 0, 0, 0.611);
-    font-size: 20px;
-    margin-left: 0;
+    font-size: 30px;
+    margin-top: 20px;
   }
 
   #button-sec4 {
     padding: 17px 50px;
     font-size: 12px;
+    width: 200px;
+    height: 65px;
+    margin-left: 1rem;
+  }
+
+  #mail-sec4{
+    width: 200px;
+    height: 25px;
   }
 }
 
@@ -488,6 +510,7 @@ parte azul de emoji y parte amarilla***
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
+  justify-content: space-between;
 }
 
 .project-container {
@@ -533,7 +556,7 @@ parte azul de emoji y parte amarilla***
   margin-left: 1.3rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
-
+  
 }
 
 /*******************/
@@ -615,6 +638,7 @@ parte azul de emoji y parte amarilla***
   flex-wrap: nowrap;
   align-items: center;
   align-content: space-between;
+  justify-content: space-between;
 }
 
 #third-section h2 {
@@ -701,8 +725,16 @@ parte azul de emoji y parte amarilla***
   }
 
   .margin-service {
-    width: 18rem;
-    height: 40vh;
+    width: 21rem;
+    height: 30vh;
+  }
+
+  .service-container a{
+    margin-top: 4rem;
+  }
+
+  .service-container p{
+    letter-spacing: 1px;
   }
 
   .footer-info {
@@ -734,24 +766,27 @@ parte azul de emoji y parte amarilla***
   }
 
   #third-section{
-    margin-left: 5rem;
+    margin-left: 10rem;
+    margin-right: 6rem;
     margin-top: 12rem;
     margin-bottom: 8rem;
   }
 
   #first-section{
-    margin-left: 5rem;
+    margin-left: 10rem;
+    margin-right: 6rem;
     margin-top: 12rem;
     margin-bottom: 8rem;
   }
 
   #first-section h2{
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+    font-size: 2.2rem;
   }
 
   #third-section h2{
-    margin-bottom: 4rem;
-  }
-
+    margin-bottom: 3rem;
+    font-size: 2.2rem;
+    }
 
 }
