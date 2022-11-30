@@ -516,7 +516,7 @@ ul {
 
 @media (min-width: 1024px) {
   body {
-    margin: 4rem;
+    margin: 5rem;
   }
   nav {
     justify-content: space-between;
@@ -697,8 +697,14 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
 
+  }
+  .margin-service1{
+    margin-right: 30px;
+  }
+  .margin-service2{
+    margin-right: 30px;
   }
 
   .margin-service {
@@ -724,7 +730,7 @@ ul {
 #section4{
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 70vh;
 }
   #mail-sec4 {
     background-position-x: 15px;
