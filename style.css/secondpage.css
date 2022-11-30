@@ -115,7 +115,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-   height: 22vh;
+   height: 25rem;
 }
 
 #image-simp{
@@ -152,6 +152,7 @@ ul {
 .projects{
     display: flex;
 	flex-direction: column;
+  justify-content: center;
 	align-items: center;
     
 }
@@ -159,6 +160,7 @@ ul {
 .project-container{
     background: white;
     width: 100%;
+    height: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -167,8 +169,14 @@ ul {
 
 .margin-project{
     margin-bottom: 35px;
-    /*width: 75%;*/
+    width: 30rem;
 }
+.project-img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
 
 .project-container > h3{
     margin: 30px 30px 20px;
@@ -366,7 +374,7 @@ any question   */
   }
   
   #header{
-    height: 70vh;
+    height: 28rem;
  }
 
  #image-simp{
