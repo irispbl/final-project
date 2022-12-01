@@ -43,23 +43,23 @@
     <!-- FORMULARIO -->
     <main>
       <h1>Contact Us</h1>
-      <form id="form" action="">
+      <form name="myForm" id="form" action="" onsubmit="return validateForm()" method="post">
         <div class="name">
           <label for="">Full Name *</label>
           <input
             type="text"
             placeholder="  Enter your full name"
-            name=""
+            name="fname"
             id=""
           />
         </div>
         <div class="email-phone">
           <div class="email">
-            <label for="">Email</label>
+            <label form="">Email</label>
             <input
-              type="text"
+              type="email"
               placeholder="  Enter your email address"
-              name=""
+              name="fmail"
               id=""
             />
           </div>
@@ -84,7 +84,7 @@
             rows="10"
           ></textarea>
         </div>
-        <button class="submit">Submit</button>
+        <button type="submit" value="Submit" class="submit">Submit</button>
       </form>
     </main>
 
@@ -113,5 +113,6 @@
         </div>
       </div>
     </footer>
+    <script src="javascript/thirdpage.js"></script>
   </body>
 </html>
