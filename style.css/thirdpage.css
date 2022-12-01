@@ -86,6 +86,7 @@ a:hover{
   padding: 10px 20px;
   font-weight: bold;
   border: none;
+  cursor: pointer;
 }
 
 /********************/
