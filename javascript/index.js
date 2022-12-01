@@ -22,7 +22,7 @@ async function fetchProjects(uuid) {
       .setAttribute("src", project.image);
     divMarginProject[i].querySelector("h3").innerHTML = project.name;
     divMarginProject[i].querySelector("p").innerHTML = project.description;
-    divMarginProject[i].querySelector("a").setAttribute("href",`./secondpage.html/${project.uuid}`);
+    divMarginProject[i].querySelector("a").setAttribute("href",`./secondpage.html?uuid=${project.uuid}`);
   });
   
 }
