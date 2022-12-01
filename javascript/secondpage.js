@@ -1,8 +1,40 @@
+const api_url ="https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects-v2";
 
 
+async function fetchProjects(uuid) {
+    const response = await fetch(api_url);
+    const data = await response.json();
+    const filteredProjects = data.filter(function(project){
+      return project.uuid === uuid;
+    });
+
+    if(filteredProjects.length === 0){
+        alert("Page not found");
+        return;
+        // PAGE 404
+    }
+    const project = filteredProjects[0];
+
+    const sectionSimplify = document.getElementById("simplify-sec");
+        sectionSimplify.querySelector("h2").innerHTML = project.name;
+        sectionSimplify.querySelector(".p1").innerHTML = project.description;
+        sectionSimplify.querySelector(".p2").innerHTML = project.completed_on;
+        sectionSimplify.querySelector("#header").style.backgroundImage = `url(${project.image})`;
+        sectionSimplify.querySelector(".header").innerHTML = project.content;
 
 
-const params = new URLSearchParams(window.location.search);
-  const id = params.get("uuid");
-  console.log(id);
-  fetchProjects();
+        /*.querySelector("img")
+        .setAttribute("src", project.image);*/
+     
+}
+function printedProjects(projects){}
+window.addEventListener("load", async()=> {
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("uuid");
+    console.log(id);
+
+    const project = await fetchProjects(id);
+
+
+});
+
