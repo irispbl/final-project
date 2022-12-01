@@ -35,8 +35,8 @@ a:hover{
   justify-content: center;
   cursor: pointer;
   font-weight: bold;
-  text-decoration-color: #072acb;
   border: none;
+  background-color: transparent;
 }
 
 .button-menu span {

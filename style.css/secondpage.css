@@ -52,7 +52,7 @@ ul {
   justify-content: center;
   cursor: pointer;
   font-weight: bold;
-  text-decoration-color: #072acb;
+  background-color: transparent;
   border: none;
 }
 
