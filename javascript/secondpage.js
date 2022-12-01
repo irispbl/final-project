@@ -7,7 +7,8 @@ async function fetchProyectos(uuid) {
     });console.log(filteredProjects);
 
     if(filteredProjects.length === 0){
-        window.location.replace("../pagenotfound.html");
+        /*window.location.replace("../pagenotfound.html");*/
+        return;
    
     }
     const project = filteredProjects[0];
