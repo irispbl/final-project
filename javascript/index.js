@@ -11,9 +11,12 @@ async function fetchProjects(uuid) {
       return 1;
     }
   });
+  const filteredProjects = sortedProjects.filter(function(project){
+    return project.uuid !== uuid;
+  });
 
   console.log("SortedProj" + response);
-  const newstr = sortedProjects.slice(0, 3);
+  const newstr = filteredProjects.slice(0, 3);
   const divMarginProject = document.getElementsByClassName("margin-project");
 
   newstr.forEach(function (project, i) {
