@@ -372,15 +372,24 @@ ul {
   background-color: white;
   margin-bottom: 30px;
   width: 17rem;
+  height: 45vh;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 .margin-service2 {
   background-color: white;
   margin-bottom: 30px;
   width: 17rem;
+  height: 45vh;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 .margin-service3{
   background-color: white;
   width: 17rem;
+  height: 45vh;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .service-img1 {
@@ -622,6 +631,7 @@ ul {
     width: 120px;
   }
 
+
   /*SECTIOOOOOOOOOON 1*/
 
 .projects{
@@ -699,16 +709,27 @@ ul {
   }
   .margin-service1{
     margin-right: 30px;
+    height: 50vh;
+    padding-top: 1rem;
+    width: 24%;
+
   }
   .margin-service2{
     margin-right: 30px;
+    height: 50vh;
+    padding-top: 1rem;
+    width: 24%;
+
+
+  }
+  .margin-service3{
+    height: 50vh;
+    padding-top: 1rem;
+    width: 24%;
+    margin-bottom: 2rem;
   }
 
-  .margin-service {
-    width: 50%;
-    height: 40vh;
-    
-  }
+ 
   .service-container > h3 {
     font-size: 1,1rem;
     font-weight: 500;
